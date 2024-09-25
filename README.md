@@ -12,4 +12,3 @@ The goal of this project is to classify images in the CIFAR-10 dataset using a d
 1. Clone the repository:
    ```bash
    git clone https://github.com/edwardmagongo/model-cifar10-image-classification-edwardmagongo.git
-
