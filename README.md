@@ -1,14 +1,15 @@
-# Ciphar-10-Project
-This project builds a complex Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset. It leverages techniques like data augmentation, BatchNormalization, Dropout, and early stopping to enhance model performance and prevent overfitting. The model is trained using the Keras API, with a focus on optimizing accuracy through learning rate scheduling and effective dropout strategies.
+# CIFAR-10 Image Classification
 
-Key Features:
+## Project Goal:
+The goal of this project is to classify images in the CIFAR-10 dataset using a deep Convolutional Neural Network (CNN). The project includes advanced features such as data augmentation, batch normalization, dropout, and learning rate scheduling to enhance the model's accuracy and prevent overfitting.
 
-CNN Architecture: Stacked convolutional layers with increasing filter depth and regularization via dropout.
+## Important Files:
+- **model.py**: The main Python script that contains the CNN model architecture and training logic.
+- **requirements.txt**: The required Python libraries for running the project.
+- **README.md**: Documentation for understanding and running the project.
 
-Data Augmentation: Applied random rotations, shifts, flips, and zooms to the training images to improve generalization.
+## To Use This Project:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/edwardmagongo/model-cifar10-image-classification-edwardmagongo.git
 
-Early Stopping & LR Scheduling: Integrated callbacks to monitor and reduce overfitting.
-
-Visualization: Plots of training/validation accuracy and a display of misclassified images for deeper insight into model performance.
-
-Tools: TensorFlow, Keras, Matplotlib, Seaborn
